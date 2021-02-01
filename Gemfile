@@ -26,6 +26,13 @@ gem 'jquery-rails'
 gem 'mini_racer'
 gem 'font-awesome-rails'
 gem 'devise'
+
+# Upload img S3
+gem 'carrierwave'
+gem 'figaro'
+gem 'fog-aws'
+gem 'mini_magick'
+gem 'fog-core'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
@@ -46,6 +53,7 @@ group :development do
   gem 'listen', '~> 3.3'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem "figaro"
 end
 
 group :test do
